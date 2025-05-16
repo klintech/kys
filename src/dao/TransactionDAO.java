@@ -5,8 +5,6 @@ import src.model.Transaction;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.math.BigDecimal;
-import java.time.LocalDate;
 
 public class TransactionDAO {
    public void insert(Transaction t) throws SQLException {

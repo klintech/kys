@@ -1,11 +1,9 @@
+package src;
 import javax.swing.SwingUtilities;
 
 import src.controller.MainController;
 import src.controller.TransactionController;
-import src.model.Transaction;
 
-import java.math.BigDecimal;
-import java.time.LocalDate;
 
 public class App {
     public static void main(String[] args) {

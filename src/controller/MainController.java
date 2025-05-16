@@ -2,10 +2,9 @@ package src.controller;
 
 import src.view.MainView;
 
-public class MainController extends Controller {
+public class MainController {
     private MainView view;
 
-    @Override
     public void init() {
         view = new MainView();
         view.setVisible(true);
