@@ -3,7 +3,9 @@ import javax.swing.SwingUtilities;
 
 import src.controller.MainController;
 import src.controller.TransactionController;
+import src.view.DashboardView;
 
+import javax.swing.*;
 
 public class App {
     public static void main(String[] args) {
@@ -14,6 +16,10 @@ public class App {
 
             MainController controller = new MainController();
             controller.init();
+
+            DashboardView frame = new DashboardView();
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setVisible(true);
         });
     }
 }
